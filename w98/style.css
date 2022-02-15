@@ -1,0 +1,36 @@
+body {
+  background: url('windowslogo.jpg') #86B4D7 no-repeat center center fixed; 
+  user-select:none;
+  background-size: cover;
+  text-align:center;
+  margin:0;
+  padding:0;
+  cursor: url(trans.png), wait;
+}
+
+.updategif{
+  margin: auto;
+  position: absolute;
+  user-select:none;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  -ms-user-select:none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index:99;
+}
+
+.windowslogo{
+  user-select:none;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  -ms-user-select:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  z-index:-1
+}

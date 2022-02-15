@@ -1,0 +1,50 @@
+body {
+    background: url(background.jpg) #5b7edc no-repeat center center fixed;
+    user-select: none;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    cursor: url(trans.png), wait;
+    font-family: Tahoma, Arial;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;    
+}
+
+.mainholder {
+    display: block;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 444px;
+    margin: 0 auto;
+}
+
+.content {
+    position: absolute;
+    top: 60%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 444px;
+    margin-top: -5%;
+    text-align: right;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.update {
+    position: absolute;
+    bottom: 50px;
+    left: 13%;
+    width: 50%;
+    margin: 0;
+}
